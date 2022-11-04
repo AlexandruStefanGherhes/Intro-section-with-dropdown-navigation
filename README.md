@@ -42,8 +42,8 @@ Mobile version Active
 
 ### Links
 
-- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Expenses-chart-component.git)
-- Live Site URL: [Vercel Live URL](https://expenses-chart-component-neon.vercel.app/)
+- Solution URL: [Code on GitHub](https://github.com/AlexandruStefanGherhes/Intro-section-with-dropdown-navigation.git)
+- Live Site URL: [Vercel Live URL](https://intro-section-with-dropdown-navigation-rosy-two.vercel.app/)
 
 ## My process
 
