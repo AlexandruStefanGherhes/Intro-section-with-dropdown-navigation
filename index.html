@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <header class="header">
+      <div class="header__logo"><h2>snap</h2></div>
+      <div class="header__dropdown">
+        <button type="button" class="dropdown__btn">
+          <img src="/images/icon-menu.svg" alt="" />
+        </button>
+        <div class="dropdown__menu">
+          <div class="menu__btn-container">
+            <button class="menu__btn">
+              <img src="/images/icon-close-menu.svg" alt="" />
+            </button>
+          </div>
+          <div class="menu__categories">
+            <div class="categorie-one">
+              <div class="menu__features">
+                Features <img src="/images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="dropdown-links group-one">
+                <a href="#"
+                  ><img src="/images/icon-todo.svg" alt="" /> Todo List</a
+                >
+                <a href="#"
+                  ><img src="/images/icon-calendar.svg" alt="" /> Calendar</a
+                >
+                <a href="#"
+                  ><img src="/images/icon-reminders.svg" alt="" /> Reminders</a
+                >
+                <a href="#"
+                  ><img src="/images/icon-planning.svg" alt="" /> Planning</a
+                >
+              </div>
+            </div>
+            <div class="categorie-three">
+              <div class="menu__company">
+                Company <img src="/images/icon-arrow-down.svg" alt="" />
+              </div>
+              <div class="dropdown-links group-two">
+                <a href="#">History</a>
+                <a href="#">Our team</a>
+                <a href="#">Blog</a>
+              </div>
+            </div>
+            <div class="categorie-four">
+              <div class="menu__careers">Carrers</div>
+            </div>
+            <div class="categorie-five">
+              <div class="menu__about">About</div>
+            </div>
+            <div class="categorie-six">
+              <div class="menu__login">
+                <a>Login</a>
+                <button type="button">Register</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__img"></div>
+      <div class="main__info">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline
+          processes,create team rituals, and watch productivity soar.
+        </p>
+        <button type="button">Learn more</button>
+        <div class="info__partners">
+          <img src="/images/client-databiz.svg" alt="" />
+          <img src="/images/client-audiophile.svg" alt="" />
+          <img src="/images/client-meet.svg" alt="" />
+          <img src="/images/client-maker.svg" alt="" />
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
